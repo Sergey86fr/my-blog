@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+/*  */
+
+/* первая секция */
+#hero {
+    background-color: rgb(157, 97, 255);
+    ;
+    padding-left: 130px;
+    padding-bottom: 210px;
+
+}
+
+.header {
+    padding: 30px 0;
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+.header_nav-link {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    font-family: Fira Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.header_nav :hover {
+    color: rgb(205, 7, 7);
+    transition: 0.6s;
+
+}
+
+.header_nav :active {
+    color: rgb(101, 1, 1);
+    transition: 0.6s;
+
+}
+
+
+.header nav ul li {
+    display: inline;
+    margin-right: 60px;
+}
+
+.content_wrapper {
+    /* display: inline-block; */
+}
+
+
+.content_avatar {
+    margin-top: 100px;
+    display: inline-block;
+    width: 436px;
+    height: 411px;
+}
+
+.content_title {
+    width: 590px;
+    display: inline-block;
+    margin-left: 175px;
+    text-align: center;
+
+}
+
+.about_me {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-family: Fira Sans;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77px;
+    text-align: center;
+    margin-bottom: 122px;
+
+}
+
+.content_title-desc {
+    color: rgb(250, 250, 250);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+}
+
+/* вторая секция */
+#about_blog {
+    padding: 91px 71px 77px 68px;
+}
+
+.about_blog-title {
+    color: rgb(0, 0, 0);
+    font-family: Fira Sans, sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77px;
+    text-align: center;
+    margin-bottom: 201px;
+}
+
+.read_more {
+    text-align: right;
+
+}
+
+.read_more-link {
+    color: rgb(0, 0, 0);
+    font-family: Fira Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+}
+
+.read_more :hover {
+    color: rgb(183, 11, 11);
+    transition: 0.5s;
+}
+
+
+/* третья секция */
+#news_feed {
+    background-color: rgb(157, 97, 255);
+    padding: 95px 77px 33px 106px;
+}
+
+.news_block-one {
+    margin-bottom: 67px;  
+}
+
+
+.news_img {
+    display: inline-block;
+}
+
+
+.news_text {
+    display: inline-block;
+    padding-left: 60px;
+
+}
+
+.news_border {
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(68, 111, 179);
+    margin-left: 4px;
+    margin-bottom: 67px;
+}
+
+
+.news_text-date {
+    color: rgba(0, 0, 0, 0.48);
+    font-family: Gentium Book Basic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 3px;
+}
+
+.news_text-title {
+
+    color: rgb(0, 0, 0);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+.news_text-desc {
+
+    color: rgb(0, 0, 0);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.read_more-news {
+    text-align: right;
+    margin-top: 95px;
+
+}
+
+.read_more-news :hover {
+    color: rgb(183, 11, 11);
+    transition: 0.5s;
+}
+
+.read_more-news-link {
+    color: rgb(0, 0, 0);
+    font-family: Fira Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+/* четвертая секция */
+#subscribe {
+    display: inline-block;
+    text-align: center;
+    padding: 71px 283px 93px 281px;
+}
+
+.subscribe_desc {
+    color: rgb(0, 0, 0);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    text-align: center;
+
+}
+
+.subscribe_form {
+    margin-top: 74px;
+    font-size: 0;
+}
+
+
+.email {
+
+    width: 521px;
+    height: 61px;
+    background-color: rgb(182, 182, 182);
+    color: rgb(95, 95, 95);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    border: none;
+
+}
+
+.email:focus {
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+
+.subscribe_btn {
+    width: 275px;
+    height: 61px;
+    background: rgb(0, 0, 0);
+    color: rgb(250, 250, 250);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -1.5%;
+    text-align: center;
+    border: none;
+}
+
+.subscribe_btn:hover {
+    color: rgb(197, 15, 2);
+    transition: 1s;
+
+}
+
+/* footer */
+
+#social__media {
+    padding: 86px 222px 84px 84px;
+    background-color: rgb(157, 97, 255);
+}
+
+.social__media-text {
+    color: rgb(250, 250, 250);
+    font-family: Fira Sans;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77px;
+    text-align: left;
+}
+
+.social__media-icon {
+    margin-top: 57px;
+    padding-left: 5px;
+
+}
+
+.icon {
+    margin-right: 46px;
+
+}
+
+.icon-link :hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.icon-link :active {
+    background-color: rgb(146, 0, 0);
+}
