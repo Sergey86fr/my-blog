@@ -10,11 +10,29 @@
 
 /* первая секция */
 #hero {
-    background-color: rgb(157, 97, 255);
-    ;
+    /* background-color: rgb(157, 97, 255); */
+    position: relative;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(151deg, rgba(131, 58, 180, 1) 39%, rgba(29, 199, 253, 1) 70%, rgba(252, 244, 69, 1) 99%);
+    background-size: 200% 200%;
     padding-left: 130px;
     padding-bottom: 210px;
+    animation: gradient 8s ease-in-out infinite alternate-reverse;
 
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .header {
@@ -66,6 +84,7 @@ ul {
     height: 411px;
 }
 
+
 .content_title {
     width: 590px;
     display: inline-block;
@@ -93,6 +112,87 @@ ul {
     font-weight: 400;
     line-height: 43px;
     text-align: center;
+}
+
+.animation__square-1 {
+    position: absolute;
+    border: 10px solid rgba(187, 183, 183, 0.156);
+    width: 100px;
+    height: 100px;
+    top: 90px;
+    left: 90px;
+    animation: cube 20s linear infinite alternate-reverse;
+
+}
+
+@keyframes cube {
+    0% {
+        transform: scale(0) rotate(0deg) translate(50%, 50%)
+    }
+
+    100% {
+        transform: scale(1.5) rotate(960deg) translate(50%, 50%)
+    }
+}
+
+.animation__square-2 {
+    position: absolute;
+    border: 10px solid rgba(187, 183, 183, 0.152);
+    width: 200px;
+    height: 200px;
+    top: 70px;
+    left: 900px;
+    animation: cube2 20s linear infinite alternate-reverse;
+}
+
+@keyframes cube2 {
+    0% {
+        transform: scale(0) rotate(960deg) translate(50%, 50%)
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg) translate(50%, 50%)
+    }
+}
+
+.animation__square-3 {
+    position: absolute;
+    border: 10px solid rgba(187, 183, 183, 0.156);
+    width: 300px;
+    height: 300px;
+    top: 300px;
+    right: 150px;
+    animation: cube3 20s linear infinite alternate-reverse;
+}
+
+@keyframes cube3 {
+    0% {
+        transform: scale(1) rotate(960deg) translate(50%, 50%)
+    }
+
+    100% {
+        transform: scale(0) rotate(0deg) translate(50%, 50%)
+    }
+}
+
+.animation__square-4 {
+    position: absolute;
+    border: 10px solid rgba(187, 183, 183, 0.154);
+    width: 150px;
+    height: 150px;
+    top: 500px;
+    left: 600px;
+    animation: cube4 20s linear infinite alternate-reverse;
+}
+
+@keyframes cube4 {
+    0% {
+        transform: scale(1.5) rotate(45deg) translate(50%, 50%)
+    }
+
+    100% {
+        transform: scale(0) rotate(960deg) translate(50%, 50%)
+    }
 }
 
 /* вторая секция */
@@ -132,12 +232,32 @@ ul {
 
 /* третья секция */
 #news_feed {
-    background-color: rgb(157, 97, 255);
+    /* background-color: rgb(157, 97, 255); */
     padding: 95px 77px 33px 106px;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(151deg, rgba(131, 58, 180, 1) 39%, rgba(29, 199, 253, 1) 70%, rgba(252, 244, 69, 1) 99%);
+    background-size: 200% 200%;
+    padding-left: 130px;
+    padding-bottom: 210px;
+    animation: gradient 8s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .news_block-one {
-    margin-bottom: 67px;  
+    margin-bottom: 67px;
 }
 
 
@@ -278,7 +398,25 @@ ul {
 
 #social__media {
     padding: 86px 222px 84px 84px;
-    background-color: rgb(157, 97, 255);
+    /* background-color: rgb(157, 97, 255); */
+    background: rgb(131, 58, 180);
+    background: linear-gradient(151deg, rgba(131, 58, 180, 1) 39%, rgba(29, 199, 253, 1) 70%, rgba(252, 244, 69, 1) 99%);
+    background-size: 200% 200%;
+    animation: gradient 8s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .social__media-text {
