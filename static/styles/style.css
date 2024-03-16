@@ -1,3 +1,5 @@
+/* @import url(./media.css); */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +16,7 @@
     position: relative;
     background: rgb(131, 58, 180);
     background: linear-gradient(151deg, rgba(131, 58, 180, 1) 39%, rgba(29, 199, 253, 1) 70%, rgba(252, 244, 69, 1) 99%);
-    background-size: 200% 200%;
+    background-size: 100% 100%;
     padding-left: 130px;
     padding-bottom: 210px;
     animation: gradient 8s ease-in-out infinite alternate-reverse;
@@ -159,7 +161,7 @@ ul {
     width: 300px;
     height: 300px;
     top: 300px;
-    right: 150px;
+    left: 800px;
     animation: cube3 20s linear infinite alternate-reverse;
 }
 
@@ -233,7 +235,7 @@ ul {
     /* background-color: rgb(157, 97, 255); */
     background: rgb(131, 58, 180);
     background: linear-gradient(151deg, rgba(131, 58, 180, 1) 39%, rgba(29, 199, 253, 1) 70%, rgba(252, 244, 69, 1) 99%);
-    background-size: 200% 200%;
+    background-size: 100% 100%;
     padding: 95px 77px 33px 106px;
     animation: gradient 8s ease-in-out infinite alternate-reverse;
 }
@@ -397,7 +399,7 @@ ul {
     /* background-color: rgb(157, 97, 255); */
     background: rgb(131, 58, 180);
     background: linear-gradient(151deg, rgba(131, 58, 180, 1) 39%, rgba(29, 199, 253, 1) 70%, rgba(252, 244, 69, 1) 99%);
-    background-size: 200% 200%;
+    background-size: 100% 100%;
     animation: gradient 8s ease-in-out infinite alternate-reverse;
 }
 
